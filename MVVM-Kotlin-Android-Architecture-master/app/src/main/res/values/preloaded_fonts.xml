@@ -3,6 +3,7 @@
     <array name="preloaded_fonts" translatable="false">
         <item>@font/alegreya_sans_sc_light</item>
         <item>@font/antic_slab</item>
+        <item>@font/arimo</item>
         <item>@font/assistant</item>
         <item>@font/assistant_light</item>
         <item>@font/balthazar</item>

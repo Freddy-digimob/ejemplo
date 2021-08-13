@@ -30,13 +30,13 @@ class HomeActivity : BaseActivity(){
         binding.ingresar.setOnClickListener {
             val nextScreenIntent = Intent(this, IngresarActivity::class.java)
             startActivity(nextScreenIntent)
-            finish()
+
         }
 
         binding.registrar.setOnClickListener {
             val nextScreenIntent = Intent(this, RegistrarActivity::class.java)
             startActivity(nextScreenIntent)
-            finish()
+
         }
     }
 

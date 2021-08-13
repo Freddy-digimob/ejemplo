@@ -11,6 +11,7 @@ import com.task.SPLASH_DELAY
 import com.task.databinding.HomeLayoutBinding
 import com.task.databinding.IngresarLayoutBinding
 import com.task.databinding.RegistrarLayoutBinding
+import com.task.ui.component.login.RegisterActivity
 import dagger.hilt.android.AndroidEntryPoint
 
 /**
@@ -33,7 +34,13 @@ class RegistrarActivity : BaseActivity(){
         binding.ingresar.setOnClickListener {
             val nextScreenIntent = Intent(this, LoginActivity::class.java)
             startActivity(nextScreenIntent)
-            finish()
+
+        }
+
+        binding.ingresarEmail.setOnClickListener {
+            val nextScreenIntent = Intent(this, RegisterActivity::class.java)
+            startActivity(nextScreenIntent)
+
         }
 
     }

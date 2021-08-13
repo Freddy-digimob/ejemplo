@@ -31,7 +31,7 @@ class IngresarActivity : BaseActivity(){
          binding.registrar.setOnClickListener {
              val nextScreenIntent = Intent(this, RegistrarActivity::class.java)
              startActivity(nextScreenIntent)
-             finish()
+
          }
     }
 

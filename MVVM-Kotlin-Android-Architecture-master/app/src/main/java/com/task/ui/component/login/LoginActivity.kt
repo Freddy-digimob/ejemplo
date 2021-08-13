@@ -30,7 +30,6 @@ class LoginActivity : BaseActivity() {
         binding.forgotPassword.setOnClickListener {
             val nextScreenIntent = Intent(this, ForgotActivity::class.java)
             startActivity(nextScreenIntent)
-            finish()
         }
     }
 

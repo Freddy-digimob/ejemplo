@@ -47,5 +47,10 @@
     <string name="text_registro_gm">REGÍSTRATE CON GOOGLE</string>
     <string name="text_registro_apple">REGÍSTRATE CON APPLE ID</string>
     <string name="text_registro_email">REGÍSTRATE CON EMAIL</string>
+    <string name="text_title_nombre">Nombres</string>
+    <string name="text_title_apellidos">Apellidos</string>
+    <string name="text_title_correo">Correo</string>
+    <string name="text_title_contrasenia">Contraseña</string>
+    <string name="text_title_confirm_contrasenia">Confirmar contraseña</string>
 
 </resources>
